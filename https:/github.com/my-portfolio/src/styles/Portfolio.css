@@ -1,0 +1,26 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.portfolio h2 { 
+    font: 'Roboto', sans-serif; 
+    font-size: 40px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: hsla(9, 100%, 87%, 1);
+    border: black 3px solid;
+    border-radius: 25px;
+    margin-block-end: auto;
+    text-align: center;
+    box-shadow: 0 2px 15px #000000;
+}

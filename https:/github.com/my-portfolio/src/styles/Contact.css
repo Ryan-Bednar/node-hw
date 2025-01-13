@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.contact h2 { 
+    font: 'Roboto', sans-serif; 
+    font-size: 40px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: hsla(9, 100%, 87%, 1);
+    border: black 3px solid;
+    border-radius: 25px;
+    margin-block-end: auto;
+    text-align: center;
+    box-shadow: 0 2px 15px #000000;
+}
+
+.contact textarea {
+    width: 50%;
+    height: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.contact label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.contact input {
+    width: 25%;
+    height: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

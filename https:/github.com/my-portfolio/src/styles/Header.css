@@ -1,0 +1,78 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: hsla(9, 100%, 87%, 1);
+    background: linear-gradient(.25turn, hsla(9, 100%, 87%, 1) 0%, hsla(131, 52%, 38%, 1) 100%);
+    border-bottom: black 3px solid;
+    padding-left: 50px;
+}
+
+#dark header {
+    background: hsla(9, 100%, 87%, 1);
+    background: linear-gradient(.25turn, rgb(132, 102, 97) 0%, rgb(29, 91, 40) 100%);
+    color: #F5F5F5 ;
+}
+
+.header nav {
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 25px;
+    
+}
+
+.header h1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 2rem
+}
+
+.nav-link {
+    text-decoration: wavy;
+}
+
+.nav-link{
+    background-color: inherit;
+    background-color: hsla(9, 100%, 87%, 1);
+    border: black 1px solid;
+}
+
+#dark .nav-link{
+    background-color: inherit;
+    background-color: rgb(132, 102, 97);
+    border: #F5F5F5 1px solid;
+}
+
+#dark .nav-link:hover{
+    background-color: inherit;
+    transition: background-color 0.25s ease-in;
+    transition: border 5px 0.5s;
+    box-shadow:  0 0 10px #F5F5F5;
+    background-color: rgb(132, 102, 97);
+    border: #F5F5F5 1px solid;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+#dark .nav-link a {
+    color: #F5F5F5;
+}
+
+
+.nav-link:hover {
+    background-color: inherit;
+    transition: background-color 0.25s ease-in, border 0.5s;
+    box-shadow:  0 0 10px #000000;
+    background-color: hsla(9, 100%, 87%, 1);
+    border: black 1px solid;
+}
+
