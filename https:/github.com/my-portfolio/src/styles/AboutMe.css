@@ -7,11 +7,6 @@ html, body {
     background-color: #F5F5F5;
 }
 
-#dark {
-    background-color: rgba(61, 61, 61, 0.823);
-    color: #F5F5F5;
-}
-
 .about-me {
     display: flex;
     flex-direction: column;
@@ -19,29 +14,7 @@ html, body {
     padding-left: 50px;
     padding-right: 50px;
     height: 100%;
-}
-
-#dark .about-me {
-    background-color: rgba(61, 61, 61, 0.823);
-    color: #F5F5F5;
-}
-
-.about-me h2 { 
-    font: 'Roboto', sans-serif; 
-    font-size: 40px;
-    font-weight: bold;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background: hsla(9, 100%, 87%, 1);
-    border: black 3px solid;
-    border-radius: 25px;
-    margin-block-end: auto;
-    text-align: center;
-    box-shadow: 0 2px 15px #000000;
-}
-
-#dark .about-me h2 {
-    background: rgb(132, 102, 97);
-    color: #F5F5F5;
+    padding-bottom: 300px
 }
 
 .about-me-content {
@@ -56,17 +29,19 @@ html, body {
     display: flex;
     flex-direction: row;
     align-content: center;
-    border: black 3px solid;
+    border: black 2px solid;
     padding: 10px;
     white-space: pre-wrap;
     border-radius: 25px;
     box-shadow: 0 2px 15px #000000;
-    background: hsla(131, 52%, 38%, 1);
+    background: hsl(131deg 29.2% 52.86%);
 }
 
 #dark .about-me p {
     background: rgb(29, 91, 40);
     color: #F5F5F5;
+    border: white 2px solid;
+    box-shadow: 0 2px 4px rgba(224, 224, 224, 0.721);
 }
 
 .about-me img {
@@ -85,6 +60,7 @@ html, body {
     padding: 10px;
     vertical-align: middle;
 }
+
 
 .links {
     display: flex;

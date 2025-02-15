@@ -15,12 +15,12 @@ const styles = {
 export default function Header() {
     const currentPage = useLocation.pathname;
     return (
-        <header className="header">
+        <header className="header container">
             <h1 style={styles.title}>
                  Ryan Bednar's Portfolio
             </h1>
             <nav>
-                <div className='nav-links'>
+                <div className='nav-links container'>
                     <Link style={styles.linkStyle}
                         to="/"
                         className={currentPage === '/AboutMe' ? 'nav-link active' : 'nav-link'}>                        

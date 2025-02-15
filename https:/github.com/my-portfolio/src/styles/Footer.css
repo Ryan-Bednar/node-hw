@@ -4,12 +4,13 @@ footer {
     display: flex;
     flex-direction: row;
     padding: 10px;
-    position: absolute;
+    position: static;
     bottom: 0;
     width: 100%;
     border-top: black 3px solid;
     align-items: space-between;
     justify-content: space-between;
+    padding-bottom: 25px;
 }
 
 #dark footer {
@@ -26,6 +27,12 @@ footer img {
     background-color: hsla(9, 100%, 87%, 1);
     transition: background-color 0.25s ease-in;
     transition: border 5px 0.5s;
+    filter: brightness(150%);
+}
+
+footer img:hover {
+    background-color: #000000;
+    border: 1px solid #000000;
     filter: brightness(150%);
 }
 

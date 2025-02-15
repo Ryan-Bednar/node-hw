@@ -5,14 +5,13 @@
     padding: 1rem 0;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background: hsla(9, 100%, 87%, 1);
     background: linear-gradient(.25turn, hsla(9, 100%, 87%, 1) 0%, hsla(131, 52%, 38%, 1) 100%);
     border-bottom: black 3px solid;
-    padding-left: 50px;
+    height: 100%;
+    width: 100%;
 }
 
-#dark header {
-    background: hsla(9, 100%, 87%, 1);
+#dark .header {
     background: linear-gradient(.25turn, rgb(132, 102, 97) 0%, rgb(29, 91, 40) 100%);
     color: #F5F5F5 ;
 }
@@ -26,7 +25,6 @@
 }
 
 .header h1 {
-    margin: 0px;
     padding: 0px;
     font-size: 2rem
 }

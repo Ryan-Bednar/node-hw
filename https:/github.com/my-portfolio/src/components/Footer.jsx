@@ -16,13 +16,13 @@ export default function Footer() {
         <ReactSwitch onChange={toggleTheme} checked={theme === 'dark'} />
       </div>
       <div className='links'>
-        <a href="https://github.com/Ryan-Bednar">
+        <a href="https://github.com/Ryan-Bednar" target="_blank" rel="noreferrer">
           <img src={img2} alt="github link" />
         </a>
-        <a href="https://www.linkedin.com/in/ryanebednar/">
+        <a href="https://www.linkedin.com/in/ryanebednar/" target="_blank" rel="noreferrer">
           <img src={img3} alt="LinkedIn link" />
         </a>
-        <a href="mailto:rbednar01@gmail.com">
+        <a href="mailto:rbednar01@gmail.com" target="_blank" rel="noreferrer">
           <img src={img4} alt="Email link" />
         </a>
       </div>

@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/Resume.css";
 
 export default function Resume() {
@@ -6,6 +5,8 @@ export default function Resume() {
     return (
         <div className='resume'>
             <h2>Resume</h2>
+            <br/>
+            Check out my resume <a href="../../assets/docs/Resume.html" target="_blank" rel="noreferrer" >here</a>!
             <div className='resume-content'>
                 <h3>Education</h3>
                 <p>Kansas State University

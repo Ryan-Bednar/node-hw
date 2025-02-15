@@ -1,4 +1,4 @@
-import React, { useState, createContext } from 'react';
+import  { useState, createContext } from 'react';
 import { Outlet } from 'react-router-dom';
 import './styles/App.css'; // Import the CSS file
 import Header from './components/Header';
@@ -14,7 +14,7 @@ function App() {
   };
 
   return (
-    <div className='App' id={theme}>
+    <div className='App container' id={theme}>
       <ThemeContext.Provider value={{ theme, toggleTheme }}>
         <Header />
           <Outlet />

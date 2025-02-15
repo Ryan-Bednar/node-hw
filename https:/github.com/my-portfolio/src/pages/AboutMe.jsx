@@ -13,15 +13,15 @@ export default function AboutMe() {
             <h2>About Me</h2>
             <div className='about-me-content'>
                 <div className='about-me-img'>
-                    <img src={img1} alt="Ryan Bednar" />
+                        <img src={img1} alt="Ryan Bednar"  />
                     <div className='links'>
-                        <a href="https://github.com/Ryan-Bednar"  >
+                        <a href="https://github.com/Ryan-Bednar" target='_blank' rel='noreferrer'>
                             <img src={img2} alt="github link" />
                         </a>
-                        <a href="https://www.linkedin.com/in/ryanebednar/">
+                        <a href="https://www.linkedin.com/in/ryanebednar/" target='_blank' rel='noreferrer'>
                             <img src={img3} alt="LinkedIn link" />
                         </a>
-                        <a href="mailto:rbednar01@gmail.com" >
+                        <a href="mailto:rbednar01@gmail.com" target='_blank' rel='noreferrer'>
                             <img src={img4} alt="Email link" />
                         </a>
                     </div>
